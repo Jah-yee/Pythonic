@@ -334,7 +334,7 @@ void ElementMaster::ShowException(const QString &ts)
 {
     m_text.setVisible(true);
     m_textLabel.setStyleSheet(QStringLiteral("background-color: #ff0000; color: #ffffff; border: 1px solid black;"));
-    m_textLabel.setText(ts + QStringLiteral("\nExecption occured, open log for details"));
+    m_textLabel.setText(ts + QStringLiteral("\nException occurred, open log for details"));
     m_hasException = true;
 }
 
